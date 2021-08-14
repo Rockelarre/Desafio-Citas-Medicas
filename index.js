@@ -50,6 +50,8 @@ http
 
                 console.log(chalk.red.bgGreen('\nLista de usuarios registrados:'));
 
+                res.write('Lista de usuarios registrados:\n');
+
                 // Uso de Lodash para recorrer el arreglo de usuarios registrados
                 _.forEach(lista_usuarios,(elemento) => {
                     
